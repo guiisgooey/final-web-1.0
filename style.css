@@ -1,0 +1,48 @@
+body{
+    column-count: 2;
+    column-gap: 5em;
+    font-family: "Verdana";
+}
+#data-input{
+    column-span: 1;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    break-inside: avoid-column;
+}
+#headline-display{
+    column-span: 1;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+#display{
+    font-family: "Helvetica";
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin: 1em;
+    text-align: center;
+}
+
+h1{
+    font-size: 16px
+}
+
+#data-output{
+    column-span: 1;
+}
+
+#student-info{
+    column-span: 1;
+}
+
+code{
+    font-family: monospace;
+    font-size: 20px;
+}

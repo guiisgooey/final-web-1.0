@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Andrew Wagner - Final - Web 1.0</title>
+    </head>
+    <body>
+        <section id="student-info">
+            <h1>Andrew Wagner</h1>
+            <p>My favorite color is lilac and I wear Sperries!</p>
+        </section>
+        <section id="data-input">
+            <h1>Font Styler</h1>
+            <label for="input-size">Font Size</label>
+            <input id="input-size" type="number" value=16>
+            <label for="select-font">Font Family</label>
+            <select id="select-font">
+                <option>Helvetica</option>
+                <option>Arial</option>
+                <option>Times New Roman</option>
+                <option>Georgia</option>
+            </select>
+            <label for="select-weight">Font Weight</label>
+            <select id="select-weight">
+                <option>normal</option>
+                <option>bold</option>
+                <option>bolder</option>
+                <option>lighter</option>
+            </select>
+            <label for="select-style">Font Style</label>
+            <select id="select-style">
+                <option>normal</option>
+                <option>italic</option>
+                <option>oblique</option>
+            </select>
+            <label for="input-color">Font Color</label>
+            <input id="input-color" type="color" value="#000000">
+            <label for="input-bg-color">Background Color</label>
+            <input id="input-bg-color" type="color" value="#ffffff">
+            <label for="enter-text">Enter Text</label>
+            <textarea id="enter-text">Sample Text</textarea>
+        </section>
+        <section id="headline-display">
+            <h1 id="display">Sample Text</h1>
+        </section>
+        <section id="data-output">
+            <h1>Font Settings</h1>
+            <pre><code>.headline {
+            	font-size: <span id="show-size">16px</span>;
+                font-family: <span id="show-font">Times</span>;
+                font-weight: <span id="show-weight">normal</span>;
+                font-style: <span id="show-style">normal</span>;
+            	color: <span id="show-color">#000</span>;
+            	background-color: <span id="show-bg-color">#fff</span>;
+            }</code></pre>
+        </section>
+        <script src="scripts.js"></script>
+    </body>
+</html>
